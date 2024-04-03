@@ -296,7 +296,8 @@ int ldmemo( ??? ) {
 #### 2-2. `memo`を読み書きするための`ReadMemo`, `WriteMemo`関数の作成
 - メモ化を実装するにあたり，二次元配列`memo`を読み書きするための関数`ReadMemo`, `WriteMemo`を作成する．
 
-- `ReadMemo`関数は，二次元配列`memo`と整数型変数`x`, `y`の3つを引数に取って`memo`の`x, y`における値を返す関数であり，`WriteMemo`関数は，二次元配列`memo`と整数型変数`x`, `y`, `value`の4つを引数に取って，`memo`の`x, y`における値に`value`を代入する関数である．
+  + `ReadMemo`関数は，二次元配列`memo`と整数型変数`x`, `y`の3つを引数に取って`memo`の`x, y`における値を返す関数である．
+  + `WriteMemo`関数は，二次元配列`memo`と整数型変数`x`, `y`, `value`の4つを引数に取って，`memo`の`x, y`における値に`value`を代入する関数である．
 
 - まず，下記を用いてこれらの関数を前方宣言せよ．
   ```c
@@ -312,7 +313,7 @@ int ldmemo( ??? ) {
     }
 
     void WriteMemo(int** memo, int x, int y, int value) {
-      ???  // value を memo の x,y 値に代入
+      ???  // memo の x,y における値に value を代入する
     }
     ```
 
