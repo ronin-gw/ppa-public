@@ -204,7 +204,7 @@ times powArray called = 2
 
 実際の再帰呼び出し関数の書き方については，階乗（$n!=n*(n-1)*...*2*1$）を再帰呼び出しで計算するコード[〈こちら〉](https://www.ppa.riec.tohoku.ac.jp/ppa/practice/recursion)を参照のこと．
 
-`GCD(a,b)`関数の返り値と再帰の書き方について．
+`GCD(a,b)`関数の返り値について．
 - `GCD(a,b)`関数では，まず$a/b$を計算する．
 - $a/b$が割り切れるとき($r=0$)，最大公約数は$b$なので，`GCD(a,b)`関数の返り値も$b$とすればよい．
 - 一方で，$a/b$が割り切れないとき($r\neq 0$)，$b$と$r$を新しい$a$と$b$として，`GCD(b,r)`関数を実行する必要がある．この処理のとき，返り値はどうすればいいだろうか？（ヒント: 階乗を再起呼び出しで計算するコード[〈こちら〉](https://www.ppa.riec.tohoku.ac.jp/ppa/practice/recursion)の返り値を参照せよ．）
