@@ -400,7 +400,7 @@ void func2(void){
   + `ldmemo`関数を呼び出すたびに,`countm`の値を+1するように`ldmemo`関数を修正する.
   + `ReadMemo`関数を呼び出すたびに,`readCountm`の値を+1するように`ReadMemo`関数を修正する.
   + `WriteMemo`関数を呼び出すたびに,`writeCountm`の値を+1するように`WriteMemo`関数を修正する.
-  + `ldmemo`関数の中で`memo`に読み書きするたびにその回数を数える必要がある．そのため必ず`ReadMemo`関数と`WriteMemo`を用い`memo`の読み書きを行う，．
+  + `ldmemo`関数の中で`memo`に読み書きするたびにその回数を数える必要がある．そのため必ず`ReadMemo`関数と`WriteMemo`を用い`memo`の読み書きを行う．
     一方，`ldmemo`関数以外では`ReadMemo`関数と`WriteMemo`関数を使わない．
 
 #### 3-2. グローバル変数の値を確認
